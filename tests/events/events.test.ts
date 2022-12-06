@@ -22,45 +22,7 @@ test.beforeEach(async ({ page, baseURL }) => {
     await eventPage.addNewEvent(pageContentData.addEvent);
 });
 
-// test("Verify Add New Event Successfully", async ({ page, pageContentData }) => {
-//   const eventPage = new Events(page);
-//   await eventPage.verifyEvent(pageContentData.verifyEvent[0]);
-// });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-test('Add event', async ({page, pageContentData }) => { 
-
-  
- })
-
-
-
-
-
-
-
-
-
-
-
-
+test("Verify Add New Event Successfully", async ({ page, pageContentData }) => {
+  const eventPage = new Events(page);
+  await eventPage.verifyEvent(pageContentData.verifyEvent[0]);
+});
