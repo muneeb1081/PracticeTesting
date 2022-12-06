@@ -1,0 +1,92 @@
+{
+  "addEvent": [
+    {
+      "partnerName": "DE Expert",
+      "campaignName": "QA Testing",
+      "product": "Cheetah",
+      "activitySubtype": "Digital",
+      "tags": "autoTag1",
+      "googleBudget": "12000",
+      "partnerBudget": "20000"
+    }
+  ],
+  "verifyEvent": [
+    {
+      "partnerName": "DE Expert",
+      "campaignName": "QA Testing",
+      "product": "Cheetah",
+      "activitySubtype": "Digital - Digital",
+      "tags": "autoTag1",
+      "googleBudget": "$2K",
+      "partnerBudget": "$20K"
+    }
+  ],
+  "addEventWithMultipleProducts": [
+    {
+      "partnerName": "DE Expert",
+      "campaignName": "QA Testing",
+      "product1": "Cheetah",
+      "product2": "Chromecast Audio",
+      "activitySubtype": "Digital",
+      "tags": "autoTag2",
+      "googleBudget": "12000",
+      "partnerBudget": "20000"
+    }
+  ],
+  "addEventWithMultipleTags": [
+    {
+      "partnerName": "DE Expert",
+      "campaignName": "Untitled",
+      "product": "Cheetah",
+      "activitySubtype": "Digital",
+      "tag1": "autoTag3",
+      "tag2": "autoTag4",
+      "googleBudget": "12000",
+      "partnerBudget": "20000"
+    }
+  ],
+  "editPartnerName": [
+    {
+      "partnerName": "DE Cyberport"
+    },
+    {
+      "partnerName": "DE Expert"
+    }
+  ],
+  "editCampaignName": [
+    {
+      "campaignName": "QA Edit"
+    }
+  ],
+  "editProductName": [
+    {
+      "product": "Chromecast with Google TV"
+    }
+  ],
+  "editActivitySubtype": [
+    {
+      "activitySubtype": "Digital performance"
+    }
+  ],
+  "editTagsName": [
+    {
+      "tags": "tag3213"
+    }
+  ],
+  "editEvent": [
+    {
+      "partnerName": "DE Mediamarkt",
+      "campaignName": "QA Testing",
+      "product": "Google Wifi (2020)",
+      "activitySubtype": "economic shock",
+      "tags": "new tag",
+      "googleBudget": "25000",
+      "partnerBudget": "30000"
+    }
+  ],
+  "duplicateEvent": [
+    {
+      "partnerName": "DE Expert"
+    }
+  ]
+}
